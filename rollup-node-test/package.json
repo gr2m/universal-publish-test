@@ -1,0 +1,17 @@
+{
+  "name": "rollup-node-test",
+  "private": true,
+  "version": "1.0.0",
+  "module": "index.mjs",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.21.4",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "@gr2m/universal-dependency": "^1.0.0"
+  }
+}

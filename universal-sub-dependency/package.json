@@ -1,0 +1,10 @@
+{
+  "name": "@gr2m/universal-sub-dependency",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "node-esm.js",
+  "browser": "browser-esm.js"
+}

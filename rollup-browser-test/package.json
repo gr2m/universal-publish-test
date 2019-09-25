@@ -1,0 +1,16 @@
+{
+  "name": "rollup-browser-test",
+  "private": true,
+  "version": "1.0.0",
+  "module": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.21.4",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "@gr2m/universal-dependency": "^1.0.0"
+  }
+}

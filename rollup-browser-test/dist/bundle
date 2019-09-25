@@ -1,0 +1,14 @@
+function subDependency() {
+  console.log(
+    '[@gr2m/universal-sub-dependency] browser "module" entry point override'
+  );
+}
+
+function dependency() {
+  console.log(
+    '[@gr2m/universal-dependency] browser "module" entry point override'
+  );
+  subDependency();
+}
+
+dependency();
